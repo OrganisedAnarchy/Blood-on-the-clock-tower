@@ -2,7 +2,7 @@ const empath = {
     name: "Empath",
     team: "Townsfolk",
     scripts: ["Trouble Brewing"],
-    description: "At night, learns how many of the nearest living neighbors are evil."
+    description: "Each night, you learn how many of your 2 alive neighbors are evil."
 };
 
 module.exports = empath;

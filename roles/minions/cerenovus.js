@@ -2,7 +2,7 @@ const cerenovus = {
     name: "Cerenovus",
     team: "Minions",
     scripts: ["Sects & Violets"],
-    description: "Makes a player appear to be a chosen character; breaking that madness risks execution."
+    description: "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed."
 };
 
 module.exports = cerenovus;

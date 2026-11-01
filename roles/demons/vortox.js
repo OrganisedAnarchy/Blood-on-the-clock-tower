@@ -2,7 +2,7 @@ const vortox = {
     name: "Vortox",
     team: "Demons",
     scripts: ["Sects & Violets"],
-    description: "Makes Townsfolk information false; the good team must execute daily."
+    description: "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
 };
 
 module.exports = vortox;

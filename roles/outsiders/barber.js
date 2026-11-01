@@ -2,7 +2,7 @@ const barber = {
     name: "Barber",
     team: "Outsiders",
     scripts: ["Sects & Violets"],
-    description: "When killed at night, may let the Demon swap two players' characters."
+    description: "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
 };
 
 module.exports = barber;

@@ -2,7 +2,7 @@ const snakeCharmer = {
     name: "Snake Charmer",
     team: "Townsfolk",
     scripts: ["Sects & Violets"],
-    description: "May swap characters and alignment with the Demon by selecting it."
+    description: "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
 };
 
 module.exports = snakeCharmer;

@@ -2,7 +2,7 @@ const sage = {
     name: "Sage",
     team: "Townsfolk",
     scripts: ["Sects & Violets"],
-    description: "If killed by the Demon, learns two possible Demon identities."
+    description: "If the Demon kills you, you learn that it is 1 of 2 players."
 };
 
 module.exports = sage;

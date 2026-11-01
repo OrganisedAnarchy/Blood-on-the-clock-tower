@@ -2,7 +2,7 @@ const imp = {
     name: "Imp",
     team: "Demons",
     scripts: ["Trouble Brewing"],
-    description: "Kills a player each night; may pass the Demon role by killing itself."
+    description: "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
 };
 
 module.exports = imp;

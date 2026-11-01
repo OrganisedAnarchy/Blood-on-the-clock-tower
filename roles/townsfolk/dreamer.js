@@ -2,7 +2,7 @@ const dreamer = {
     name: "Dreamer",
     team: "Townsfolk",
     scripts: ["Sects & Violets"],
-    description: "Each night, learns two possible characters for a chosen player, one of which is true."
+    description: "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct."
 };
 
 module.exports = dreamer;

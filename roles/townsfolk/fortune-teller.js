@@ -2,7 +2,7 @@ const fortuneTeller = {
     name: "Fortune Teller",
     team: "Townsfolk",
     scripts: ["Trouble Brewing"],
-    description: "At night, checks two players for the Demon; one good player may give a false positive."
+    description: "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
 };
 
 module.exports = fortuneTeller;

@@ -2,7 +2,7 @@ const juggler = {
     name: "Juggler",
     team: "Townsfolk",
     scripts: ["Sects & Violets"],
-    description: "On the first day, publicly guesses characters; that night, learns how many were correct."
+    description: "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
 };
 
 module.exports = juggler;

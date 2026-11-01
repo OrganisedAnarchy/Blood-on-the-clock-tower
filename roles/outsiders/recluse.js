@@ -2,7 +2,7 @@ const recluse = {
     name: "Recluse",
     team: "Outsiders",
     scripts: ["Trouble Brewing"],
-    description: "May register as evil or as a Minion or Demon to abilities."
+    description: "You might register as evil & as a Minion or Demon, even if dead."
 };
 
 module.exports = recluse;

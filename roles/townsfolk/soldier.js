@@ -2,7 +2,7 @@ const soldier = {
     name: "Soldier",
     team: "Townsfolk",
     scripts: ["Trouble Brewing"],
-    description: "Cannot be killed by the Demon."
+    description: "You are safe from the Demon."
 };
 
 module.exports = soldier;

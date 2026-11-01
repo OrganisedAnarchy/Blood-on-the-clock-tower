@@ -2,7 +2,7 @@ const baron = {
     name: "Baron",
     team: "Minions",
     scripts: ["Trouble Brewing"],
-    description: "Adds two Outsiders to the game."
+    description: "There are extra Outsiders in play. [+2 Outsiders]"
 };
 
 module.exports = baron;

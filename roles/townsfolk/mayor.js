@@ -2,7 +2,7 @@ const mayor = {
     name: "Mayor",
     team: "Townsfolk",
     scripts: ["Trouble Brewing"],
-    description: "With three alive and no execution, good may win; a Demon attack may redirect."
+    description: "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
 };
 
 module.exports = mayor;
