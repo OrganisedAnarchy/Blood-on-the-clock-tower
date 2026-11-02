@@ -3,10 +3,14 @@ const {
   Events,
   GatewayIntentBits,
   OAuth2Scopes,
+  Partials,
   REST,
   Routes,
   SlashCommandBuilder,
 } = require("discord.js");
+const { registerStartGame } = require("./start_game");
+
+const command_root = "!";
 
 process.loadEnvFile(".env");
 
@@ -24,7 +28,18 @@ const commands = [
   new SlashCommandBuilder().setName("ping").setDescription("Check that the bot is alive"),
 ];
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.GuildMessageReactions,
+  ],
+  partials: [Partials.Channel, Partials.Message, Partials.Reaction, Partials.User],
+});
+
+registerStartGame(client, command_root);
 
 client.once(Events.ClientReady, async (c) => {
   console.log(`Logged in as ${c.user.tag} (id: ${c.user.id})`);
